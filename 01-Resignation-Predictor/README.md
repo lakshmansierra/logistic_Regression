@@ -29,3 +29,36 @@
 | `Cost Center`     | ❌ No                                      | Too granular or redundant with department  |
 | `City` / `State`  | ✅ Yes                                     | Geography may affect turnover              |
 | `Birthdate`       | ✅ Yes (convert to age)                    | Age may correlate with turnover            |
+
+# Accuracy
+```bash
+Positive = 1 = left 
+Negative = 0 = stay 
+```
+
+```bash
+TN = 17   (actually stay & Predicted stay)
+FP = 0    (actually stay & Predicted left)
+FN = 1    (actually left & Predicted stay)
+TP = 2    (actually left & Predicted left)
+```
+
+```bash
+[[TN FP]
+ [FN TP]]
+```
+
+```bash
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+= (2 + 17) / 20 = 19 / 20 = 0.95 → 95%
+
+Precision = TP / (TP + FP)
+= 2 / (2 + 0) = 1.0
+
+Recall = TP / (TP + FN)
+= 2 / (2 + 1) = 0.6667 → 66.67%
+
+F1 Score = 2 * (Precision * Recall) / (Precision + Recall)
+= 2 * (1 * 0.6667) / (1 + 0.6667)
+= 1.3334 / 1.6667 ≈ 0.8 → 80%
+```
