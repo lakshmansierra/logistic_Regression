@@ -1,3 +1,6 @@
+# Resignation Predictor
+- Uses Binary Classification Algorithm
+
 # Feature Selection
 ## resources_workday
 | Feature                                 | Use in Model?                | Reason                                       |
