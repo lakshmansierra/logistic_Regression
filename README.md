@@ -8,7 +8,7 @@ Supervised Learning -> Classification Algorithm -> Binary Classification | Multi
 ## Logistic Regression Equation
 
 $$
-\hat{y} = \sigma(z) \in (0, 1) = \frac{1}{1 + e^{-z}}
+y = \sigma(z) \in (0, 1) = \frac{1}{1 + e^{-z}}
 $$
 
 $$
