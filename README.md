@@ -1,5 +1,4 @@
-# Logistic Regression with Single/Multiple Features
-
+# Logistic Regression
 Logistic regression is a **classification algorithm** that models the **probability** of a data point belonging to a particular class using the **logistic (sigmoid) function**.
 
 ```bash
