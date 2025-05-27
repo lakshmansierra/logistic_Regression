@@ -1,5 +1,5 @@
 # Logistic Regression
-Logistic regression is a **classification algorithm** that models the **probability** of a data point belonging to a particular class using the **sigmoid function**.
+Logistic regression is a **classification algorithm** that `models the probability of a data point belonging to a particular class` using the **sigmoid function**.
 
 ```bash
 Supervised Learning -> Classification Algorithm -> Binary Classification | Multi Classification
