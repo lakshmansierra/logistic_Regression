@@ -16,7 +16,7 @@ $$
 - β₁, β₂ ... => Weights of each feature
 - x₁, x₂ ... => Independent Variables
 
-## Sigmoid Equation
+## Sigmoid Function
 
 $$
 y = \sigma(z) \in (0, 1) = \frac{1}{1 + e^{-z}}
